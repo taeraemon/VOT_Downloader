@@ -1,3 +1,17 @@
+"""
+VOT Dataset Downloader
+
+This script provides functionality to download VOT datasets and handle related tasks.
+The implementation was inspired by and partially adapted from the VOTDownloader script
+created by Xuchenlong on Kaggle.
+
+Source:
+https://www.kaggle.com/code/xuchenlong/votdownloader
+https://www.votchallenge.net/vot2018/dataset.html
+https://data.votchallenge.net/vot2018/main/description.json
+https://data.votchallenge.net/vot2018/longterm/description.json
+"""
+
 import os
 from tqdm import tqdm
 import six
